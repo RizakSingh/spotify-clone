@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="spotify.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navleft display align marginl">
+                <div><i class="fa-brands fa-spotify fa-2xl margin"
+                        style="color: #ffffff;"></i></div>
+                <div>
+                    <button><i class="fa-solid fa-house"
+                            style="color: #ffffff;"></i>
+                    </button>
+                </div>
+
+                <div class="inp"><i class="fa-solid fa-magnifying-glass "
+                        style="color: #ffffff ;position:absolute; left:140px;bottom:30px ; z-index:100;"></i>
+                    <input type="text" placeholder="What you want to play ?">
+                    <i class="fa-solid fa-window-minimize fa-rotate-90  "style="color: #ffffff;position:absolute; left:500px;bottom:30px ; z-index:100;">
+                    </i>
+                            <i class="fa-solid fa-window-maximize   "
+                                style="color: #ffffff;left: 650px ;bottom: 690px; position:absolute; left:520px;bottom:30px ; z-index:100;"></i></div>
+                    </div>
+                    
+            <div class="navright display marginr">
+                <div class="buttons display gap align bold">
+                    <div><button>Premium</button></div>
+                    <div><button>Support</button></div>
+                    <div><button>Download</button></div>
+                </div>
+                <div class="line display align bold"></div>
+                <div class="optionnav display align gap ">
+                    <div><i class="fa-solid fa-download"
+                            style="color: #ffffff; margin:10px;"></i><a href
+                            style=" text-decoration:none; color:#cdc9c9">InstallApp</a></div>
+                    <div><button class="colorw ">Sign Up</button></div>
+                    <div><button class="padb bw bold"
+                            style="border-radius: 20px;">Log in</button></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <div class="sidebar">
+                <div class="sideup display flexdc colorm gap">
+                    <div class="top display align colorm "> <h3
+                            class="colorw colorm bold">Your library</h3> <i
+                            class="fa-solid fa-plus"></i>
+
+                    </div>
+                    <div class="card"><h3 class="colorw cardc bold">Create Your
+                            Playlist</h3> <p class="colorw cardc ">It's
+                            easy,we'll help you</p> <button class=" bold">Create
+                            playlist</button></div>
+                    <div class="card"><h3 class="colorw cardc bold">Create Your
+                            Playlist</h3> <p class="colorw cardc ">It's
+                            easy,we'll help you</p> <button
+                            class=" bold ">Create playlist</button>
+                    </div>
+                    <div class="sidebar-links display align">
+                        <div class="link-container colorm">
+                            <a href="https://www.spotify.com/in-en/legal/"
+                                class="link">Legal</a>
+                        </div>
+                        <div class="link-container colorm">
+                            <a
+                                href="https://www.spotify.com/in-en/safetyandprivacy/"
+                                class="link">Safety & Privacy Center</a>
+                        </div>
+                        <div class="link-container colorm smini">
+                            <a
+                                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                                class="link">Privacy Policy</a>
+                        </div>
+                        <div class="link-container colorm">
+                            <a
+                                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                                class="link">Cookies</a>
+                        </div>
+                        <div class="link-container colorm">
+                            <a
+                                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                                class="link">About Ads</a>
+                        </div>
+                        <div class="link-container colorm">
+                            <a
+                                href="https://www.spotify.com/in-en/accessibility/"
+                                class="link">Accessibility</a>
+                        </div>
+                    </div>
+                    <div class="colorm"><a href class="cookie">Cookies</a></div>
+                    <div class="colorm"><button class="colorm colorw padb"
+                            style="position: absolute; border:2px solid white; border-radius:25px; margin:10px;">English</button></div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="head colorm display align">
+                    <div><h2 class="colorw colorm bold">Trending
+                            songs</h2></div>
+                    <div><a href class=" colorm bold">Show All</a></div>
+                </div>
+                <div class="cardm display align colorm ">
+                    <div class="cards margin display colorm flexdc"><img
+                            src="sample1.jpg" alt>
+                            <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h5 class=" colorw colorm margin bold">Finding
+                            Her</h5><p class="colorw colorm margin">Kaushal ,
+                            king</p></div>
+                    <div class="cards display colorm flexdc"><img
+                            src="sample2.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h5
+                            class=" colorw colorm margin bold">paro</h5><p class="colorw colorm margin">abhishek</p></div>
+                    <div class="cards display colorm flexdc"><img
+                            src="sample3.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">mangur</h5><p class="colorw colorm margin">King</p></div>
+                    <div class="cards display colorm flexdc"><img
+                            src="sample4.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">bolbol Form 'rteor'</h5><p class="colorw colorm margin">kabeer</p></div>
+                    <div class="cards display colorm flexdc"><img
+                            src="sample5.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">Jhol</h5><p class="colorw colorm margin">kalidd
+                        </p></div>
+
+                </div>
+                <div class="head colorm display align "style="margin-top:70px">
+                    <div><h2 class="colorw colorm bold">Popular Artist
+                            </h2></div>
+                    <div><a href class=" colorm bold">Show All</a></div>
+                </div>
+                <div class="cardm display align colorm ">
+                    <div class="card2 margin display colorm flexdc"><img
+                            src="sample6.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">Pritam</h5><p class="colorw colorm margin">composer</p></div>
+                    <div class="card2 display colorm flexdc"><img
+                            src="sample7.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">jeet</h5><p class="colorw colorm margin">singer</p></div>
+                    <div class="card2 display colorm flexdc"><img
+                            src="sample8.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">pritam</h5><p class="colorw colorm margin">artist</p></div>
+                    <div class="card2 display colorm flexdc"><img
+                            src="sample9.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">hanumankind</h5><p class="colorw colorm margin">rapper</p></div>
+                    <div class="card2 display colorm flexdc"><img
+                            src="sample10.jpg" alt>  <div class="play-button-container">
+                                <button aria-label="Play" class="play-btn ">
+                                    <svg viewBox="0 0 24 24" class="play-icon" aria-hidden="true" style="background:none; color:rgb(0, 0, 0) ;">
+                                        <path d="M7.05 3.606l13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                                    </svg>
+                                </button>
+                            </div><h5
+                            class=" colorw colorm margin bold">faldoo</h5><p class="colorw colorm margin">producer
+                        </p></div>
+                </div>
+
+                <footer class="footer colorm">
+                    <div class="footer-section colorm">
+                        <h4 class="colorm">Company</h4>
+                        <ul class="colorm">
+                            <li class="colorm"><a class="colorm" href="https://www.spotify.com/in-en/about-us/contact/">About</a></li>
+                            <li class="colorm"><a class="colorm" href="https://www.lifeatspotify.com/">Jobs</a></li>
+                            <li class="colorm"><a class="colorm" href="https://newsroom.spotify.com/">For the Record</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="footer-section colorm">
+                        <h4 class="colorm">Communities</h4>
+                        <ul class="colorm">
+                            <li class="colorm"><a class="colorm" href="https://artists.spotify.com/">For Artists</a></li>
+                            <li class="colorm"><a class="colorm" href="https://developer.spotify.com/">Developers</a></li>
+                            <li class="colorm"><a class="colorm" href="https://ads.spotify.com/">Advertising</a></li>
+                            <li class="colorm"><a class="colorm" href="https://investors.spotify.com/">Investors</a></li>
+                            <li class="colorm"><a class="colorm" href="https://spotifyforvendors.com/">Vendors</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="footer-section colorm">
+                        <h4 class="colorm">Useful Links</h4>
+                        <ul class="colorm">
+                            <li class="colorm"><a class="colorm" href="https://support.spotify.com/">Support</a></li>
+                            <li class="colorm"><a class="colorm" href="https://www.spotify.com/in-en/free/">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="footer-section colorm">
+                        <h4 class="colorm">Spotify Plans</h4>
+                        <ul class="colorm">
+                            <li class="colorm"><a  class="colorm"href="https://www.spotify.com/in-en/premium/">Premium Individual</a></li>
+                            <li class="colorm"><a class="colorm" href="https://www.spotify.com/in-en/duo/">Premium Duo</a></li>
+                            <li class="colorm"><a class="colorm" href="https://www.spotify.com/in-en/family/">Premium Family</a></li>
+                            <li class="colorm"><a class="colorm" href="https://www.spotify.com/in-en/student/">Premium Student</a></li>
+                            <li class="colorm"><a class="colorm" href="https://www.spotify.com/in-en/free/">Spotify Free</a></li>
+                        </ul>
+                    </div>
+                <div class="social">
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </div>
+                    <p class="footer-text">© 2025 Spotify AB</p>
+                </footer>
+    
+<footer class="colorm"> </footer>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

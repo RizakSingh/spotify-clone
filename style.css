@@ -1,0 +1,301 @@
+* {
+    background-color: black;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Utility Classes */
+.padb {
+    padding: 10px 30px;
+}
+.bw {
+    background-color: white;
+}
+.gap {
+    gap: 10px;
+}
+.align {
+    align-items: center;
+}
+.marginr {
+    margin-right: 50px;
+}
+.marginl {
+    margin-left: 20px;
+}
+.colorm {
+    background-color: #121212;
+}
+.positionr {
+
+}
+.margin {
+    margin: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.smini {
+    font-size: 10px;
+}
+.link {
+    text-decoration: none;
+    color: #999494;
+    background-color: #121212;
+    font-size: 12px;
+}
+
+
+.navleft {
+    flex: 1; /* Allows input to take available space */
+    display: flex;
+    justify-content: center; /* Center input */
+}
+
+.navleft input {
+    padding: 10px 100px;
+    border: none;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    color: rgb(189, 192, 196);
+    height: 35px;
+    width: 100%; /* Adjust width based on navbar space */
+    max-width: 400px; /* Prevents too much expansion */ 
+    position: fixed;
+}
+.navleft .inp{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.navbar {
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* Ensure it has a background */
+    padding: 0 20px;
+    z-index: 1000; /* Keeps navbar above other content */
+}
+
+
+.navbar div img {
+    width: 40px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* Left Navbar */
+.navleft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navleft button {
+    width: 40px;
+    height: 40px;
+    background-color: #2b2b2c;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navleft button img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+
+
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #121212;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    background: #121212;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.external-link .link {
+    font-weight: bold;
+}
+
+/* Cards */
+.card, .card2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    margin: 10px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.card:hover, .card2:hover {
+    background-color: #242424;
+}
+
+.cards img, .card2 img {
+    margin: 10px;
+    height: 170px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.card2 img {
+    border-radius: 50%;
+}
+
+/* Play Button */
+.play-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: #1db954;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .play-btn,
+.card2:hover .play-btn {
+    opacity: 1;
+}
+
+.play-btn:hover {
+    background: #1ed760;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    color: #fff;
+    border-top: 1px solid #282828;
+    background-color: #121212;
+    margin-top: auto;
+}
+
+.footer-section {
+    width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #1DB954;
+}
+
+/* Social Links */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+/* Footer Bottom Text */
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    color: #b3b3b3;
+    padding: 10px;
+}
+
+/* Miscellaneous */
+.main {
+    overflow: auto;
+    height: auto;
+    background-color: #121212;
+    border-radius: 10px;
+    margin: 10px 2px 1px 1px;
+    width: 140vh;
+}
+
+.cookie {
+    background-color: #121212;
+    color: #fafaff;
+    margin: 5px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button {
+    border: none;
+}
+
+/* Headers */
+.head {
+    border: none;
+    margin: 40px 15px 15px 15px;
+    justify-content: space-between;
+}
+
+.head a {
+    text-decoration: none;
+    color: #999494;
+    border: none;
+}
